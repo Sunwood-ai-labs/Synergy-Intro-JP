@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synergy Intro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bauhaus-red': '#E94B35',
+              'bauhaus-blue': '#2A6DB5',
+              'bauhaus-yellow': '#F2C94C',
+              'bauhaus-black': '#1A1A1A',
+              'bauhaus-white': '#F4F4F0',
+              'bauhaus-green': '#74be70',
+            },
+            fontFamily: {
+              sans: ['Helvetica', 'Arial', 'sans-serif'],
+            },
+            boxShadow: {
+              'hard': '8px 8px 0px 0px #1A1A1A',
+              'hard-sm': '4px 4px 0px 0px #1A1A1A',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F4F4F0;
+        color: #1A1A1A;
+      }
+      /* Custom Scrollbar for Bauhaus feel */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F4F4F0;
+        border-left: 2px solid #1A1A1A;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1A1A1A;
+        border: 2px solid #F4F4F0;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #E94B35;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
