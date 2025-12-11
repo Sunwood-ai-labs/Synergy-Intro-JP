@@ -1,5 +1,14 @@
 # Synergy Intro JP
 
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <br />
+  <img src="https://img.shields.io/badge/Google%20GenAI%20SDK-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Google GenAI SDK" />
+  <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini API" />
+</div>
+
 会議の雰囲気を一変させる、Gemini搭載の音声イントロダクション生成アプリです。
 
 ## 概要
@@ -27,11 +36,7 @@ Gemini 2.5 Flash Preview TTS モデルを使用し、日本語特有のイント
 *   **カスタムスタイル:** 独自のシステムプロンプトを作成し、自分だけのナレーターを設定できます。
 *   **ボイス選択:** 性別やスタイル（「柔らかい」「断固とした」「興奮しやすい」など）に基づいて、最適なボイスを選択可能です。
 
-## 使用技術
 
-*   **Frontend:** React, TypeScript, Tailwind CSS
-*   **AI SDK:** Google GenAI SDK (@google/genai)
-*   **Design:** Bauhaus Style (幾何学形状と原色を用いたデザイン)
 
 ## 使い方
 
